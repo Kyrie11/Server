@@ -1,0 +1,115 @@
+2018-07-24 09:38:24 7434 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'redis.clients.jedis.Jedis'
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2018-07-24 09:38:43 5334 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'redis.clients.jedis.Jedis'
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2018-07-24 09:40:09 6060 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'redis.clients.jedis.Jedis'
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2018-07-24 10:50:35 6271 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method cacheManager in com.challenage.server.server.Config.RedisConfig required a bean of type 'org.springframework.data.redis.cache.RedisCacheWriter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.cache.RedisCacheWriter' in your configuration.
+
+2018-07-24 10:50:51 4140 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method cacheManager in com.challenage.server.server.Config.RedisConfig required a bean of type 'org.springframework.data.redis.cache.RedisCacheWriter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.cache.RedisCacheWriter' in your configuration.
+
+2018-07-24 10:52:23 6777 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'redis.clients.jedis.Jedis'
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+
+2018-07-24 10:53:51 11159 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method redisTemplate in org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration required a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' that could not be found.
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required classes 'org.apache.commons.pool2.impl.GenericObjectPool', 'redis.clients.jedis.Jedis'
+	- Bean method 'redisConnectionFactory' not loaded because @ConditionalOnClass did not find required class 'io.lettuce.core.RedisClient'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.data.redis.connection.RedisConnectionFactory' in your configuration.
+

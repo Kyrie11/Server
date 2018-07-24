@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test insertion</title>
+</head>
+<body>
+    <div>`
+        <table>
+            <tbody>
+                <tr th:each="locker:${lockers}">
+                    <td th:text="${locker.getId()}"></td>
+                    <td th:text="${locker.getLocation()}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <input type="text" type="text"/>
+        <button onclick="send()">Send</button>
+        <button onclick="closeWebSocket()">Close</button>
+    </div>
+
+    <div id="message">
+
+    </div>
+</body>
+
+
+<script type="text/javascript">
+    var websocket = null;
+
+    if('WebSocket' in window){
+        websocket = new WebSocket("ws://localhost:8080/test");
+    }
+    else{
+        alert('Not support websocket')
+    }
+
+    websocket.onerror = function (ev) {
+        setMessageInnerHTML("error");
+    }
+
+    websocket.onopen = function (ev) {
+        setMessageInnerHTML("open")
+    }
+    websocket.onmessage = function (ev) {
+        setMessageInnerHTML(ev.data)
+    }
+    websocket.onclose = function (ev) {
+        setMessageInnerHTML("close")
+    }
+    window.onbeforeunload = function (ev) {
+        websocket.close()
+    }
+    function setMessageInnerHTML(innerHTML){
+        document.getElementById('message').innerHTML+=innerHTML+'<br/>';
+    }
+</script>
+</html>
